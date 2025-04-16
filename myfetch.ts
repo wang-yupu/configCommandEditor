@@ -23,4 +23,4 @@ export const myfetch = async (method: string, url: string, body: null | Object =
     }
 };
 
-export const baseURL = 'http://localhost:8080/';
+export const baseURL = 'https://e1.yupu.dev/';
