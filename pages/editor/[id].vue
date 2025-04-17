@@ -35,7 +35,7 @@ const reloadKey = ref(0);
         </div>
         <div class="footer">
             <span>Powered by <a href="https://www.npmjs.com/package/monaco-editor">Monaco Editor</a></span>
-            <span>cfgcmd 网页编辑器 v{{ version }}</span>
+            <span>cfgcmd 网页编辑器 v{{ version }} <a href="https://github.com/wang-yupu/configCommandEditor">提供建议</a></span>
         </div>
     </div>
 </template>

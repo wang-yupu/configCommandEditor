@@ -45,6 +45,7 @@ function formatTimestamp(timestamp) {
 .info {
     display: flex;
     flex-direction: column;
+    margin-left: 5px;
 }
 
 .info > span {
