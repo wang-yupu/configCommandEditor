@@ -14,7 +14,7 @@ function formatTimestamp(timestamp) {
         <div class="info">
             <span
                 >会话开启者: <code>{{ model.author }}</code
-                >; 服务器: <code>{{ model.server }}</code></span
+                >; 文件夹名称: <code>{{ model.server }}</code></span
             >
             <span
                 >此会话创建时间: <code>{{ formatTimestamp(model.createTime) }}</code
