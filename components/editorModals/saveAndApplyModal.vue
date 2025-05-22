@@ -1,6 +1,6 @@
 <script setup>
 import Modal from '@/components/modal.vue';
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 import { syncAndDownload, writeContent } from '~/scripts/api';
 
 const show = defineModel('show');
@@ -28,6 +28,11 @@ async function sync() {
         isSyncing.value = false;
     }, 2000);
 }
+
+watch(show, () => {
+    successMsg.value = '';
+    isSyncing.value = false;
+});
 </script>
 
 <template>
