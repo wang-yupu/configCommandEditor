@@ -23,9 +23,9 @@ onMounted(() => {
 <template>
     <Modal v-model:visible="show" width="30vw" height="30vh">
         <div class="container">
-            <h1>正在加载配置文件</h1>
-            <h1 v-if="downloading">正在下载配置文件</h1>
-            <h1 v-if="errorShow" class="error">无法加载配置文件: {{ errorMsg }}</h1>
+            <h1>正在获取文件内容</h1>
+            <h1 v-if="downloading">正在下载文件内容</h1>
+            <h1 v-if="errorShow" class="error">无法加载文件: {{ errorMsg }}</h1>
         </div>
     </Modal>
 </template>
