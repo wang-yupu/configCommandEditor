@@ -90,6 +90,10 @@ h1 {
     color: red;
 }
 
+.success {
+    color: yellowgreen;
+}
+
 .saveStep {
     display: flex;
     flex-direction: column;
