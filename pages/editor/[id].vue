@@ -23,6 +23,10 @@ const currentLang = ref('yaml');
 const currentValue = ref('');
 
 const reloadKey = ref(0);
+
+watch(toolbarDatas, () => {
+    document.title = 'cfgcmd editor :: ' + model.name;
+});
 </script>
 
 <template>
