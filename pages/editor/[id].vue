@@ -25,7 +25,7 @@ const currentValue = ref('');
 const reloadKey = ref(0);
 
 watch(toolbarDatas, () => {
-    document.title = 'cfgcmd editor :: ' + model.name;
+    document.title = 'cfgcmd editor :: ' + toolbarDatas.name;
 });
 </script>
 
